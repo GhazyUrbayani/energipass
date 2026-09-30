@@ -1,0 +1,12 @@
+{
+  "name": "energipass",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Green Vendor Passport MVP for tender readiness in Indonesia's energy supply chain",
+  "scripts": {
+    "build": "node scripts/build.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

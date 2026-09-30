@@ -27,3 +27,8 @@ Desktop.ini
 
 # Archives / local distribution files
 *.zip
+
+# Generated build and tooling files
+dist/
+node_modules/
+.wrangler/
