@@ -32,3 +32,7 @@ All companies/tenders are fictional demonstration data. References such as “Bu
 ## Framework note
 
 The brief preferred Next.js + TypeScript + Tailwind. This delivered build is deliberately dependency-free because the current execution environment cannot reach the npm registry. The app is structured as a small SPA and can be migrated to Next.js components later without changing the product model.
+
+## UI copy update
+
+Short operational headings and labels throughout all four pages. The dashboard shows tender readiness, actions, and recent activity. Evidence source and validity remain visible; system positioning is explained in Panduan. Tender Pack generation remains a simulation.

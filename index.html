@@ -37,7 +37,7 @@
       <div class="sidebar-bottom">
         <div class="context-label">Perusahaan aktif</div>
         <div class="company-name">PT Energi Nusantara Teknik</div>
-        <div class="company-meta">Workspace demonstrasi · Data mock</div>
+        <div class="company-meta">Data fiktif</div>
       </div>
     </aside>
 
@@ -45,11 +45,11 @@
       <header class="topbar">
         <button class="mobile-menu" id="mobile-menu" aria-label="Buka navigasi" aria-expanded="false">☰</button>
         <div class="topbar-context">
-          <span class="eyebrow">Workspace Vendor</span>
+          <span class="eyebrow">Vendor</span>
           <strong id="topbar-title">Beranda</strong>
         </div>
         <div class="topbar-actions">
-          <div class="system-badge" title="Semua contoh pada MVP ini menggunakan data fiktif">Mode Demonstrasi</div>
+          <div class="system-badge" title="Perusahaan, tender, dan evidence menggunakan data fiktif">Demo · data fiktif</div>
           <button class="text-button" id="help-button">Panduan</button>
         </div>
       </header>
@@ -73,16 +73,19 @@
   <dialog id="help-dialog" class="dialog">
     <div class="dialog-header">
       <div>
-        <span class="eyebrow">Tentang MVP</span>
-        <h2>Cara membaca EnergiPass</h2>
+        <h2>Panduan</h2>
       </div>
       <button class="icon-button" id="help-close" aria-label="Tutup panduan">×</button>
     </div>
     <div class="dialog-body">
-      <p>EnergiPass membantu vendor memetakan evidence yang sudah dimiliki terhadap requirement tender, menemukan gap, dan menyiapkan paket evidence sebelum deadline.</p>
+      <ol class="help-steps">
+        <li>Pilih tender.</li>
+        <li>Periksa persyaratan dan status evidence.</li>
+        <li>Lengkapi evidence, lalu siapkan paket tender.</li>
+      </ol>
       <div class="callout neutral">
-        <strong>Batas kewenangan</strong>
-        <p>Status readiness bukan keputusan kualifikasi vendor. Buyer, CIVD, VMS, dan sistem procurement resmi tetap menentukan evidence yang diterima.</p>
+        <strong>EnergiPass tidak menggantikan CIVD atau Buyer VMS.</strong>
+        <p>Kualifikasi tetap ditentukan buyer melalui sistem resmi.</p>
       </div>
     </div>
   </dialog>
