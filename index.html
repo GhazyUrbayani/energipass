@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="EnergiPass — Green Vendor Passport untuk kesiapan tender pemasok energi Indonesia." />
+  <title>EnergiPass — Green Vendor Passport</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Lewati ke konten utama</a>
+  <div class="app-shell">
+    <aside class="sidebar" aria-label="Navigasi utama">
+      <div class="brand-block">
+        <div class="brand-mark" aria-hidden="true">EP</div>
+        <div>
+          <div class="brand-name">EnergiPass</div>
+          <div class="brand-subtitle">Green Vendor Passport</div>
+        </div>
+      </div>
+
+      <nav class="nav-list">
+        <button class="nav-item active" data-route="dashboard" aria-current="page">
+          <span class="nav-index">01</span><span>Beranda</span>
+        </button>
+        <button class="nav-item" data-route="tender">
+          <span class="nav-index">02</span><span>Tender</span>
+        </button>
+        <button class="nav-item" data-route="evidence">
+          <span class="nav-index">03</span><span>Evidence</span>
+        </button>
+        <button class="nav-item" data-route="pack">
+          <span class="nav-index">04</span><span>Paket Tender</span>
+        </button>
+      </nav>
+
+      <div class="sidebar-bottom">
+        <div class="context-label">Perusahaan aktif</div>
+        <div class="company-name">PT Energi Nusantara Teknik</div>
+        <div class="company-meta">Workspace demonstrasi · Data mock</div>
+      </div>
+    </aside>
+
+    <div class="main-shell">
+      <header class="topbar">
+        <button class="mobile-menu" id="mobile-menu" aria-label="Buka navigasi" aria-expanded="false">☰</button>
+        <div class="topbar-context">
+          <span class="eyebrow">Workspace Vendor</span>
+          <strong id="topbar-title">Beranda</strong>
+        </div>
+        <div class="topbar-actions">
+          <div class="system-badge" title="Semua contoh pada MVP ini menggunakan data fiktif">Mode Demonstrasi</div>
+          <button class="text-button" id="help-button">Panduan</button>
+        </div>
+      </header>
+
+      <main id="main-content" tabindex="-1"></main>
+    </div>
+  </div>
+
+  <div class="drawer-backdrop" id="drawer-backdrop" hidden></div>
+  <aside class="drawer" id="evidence-drawer" aria-hidden="true" aria-label="Detail evidence">
+    <div class="drawer-header">
+      <div>
+        <span class="eyebrow">Detail Evidence</span>
+        <h2 id="drawer-title">Evidence</h2>
+      </div>
+      <button class="icon-button" id="drawer-close" aria-label="Tutup detail">×</button>
+    </div>
+    <div class="drawer-content" id="drawer-content"></div>
+  </aside>
+
+  <dialog id="help-dialog" class="dialog">
+    <div class="dialog-header">
+      <div>
+        <span class="eyebrow">Tentang MVP</span>
+        <h2>Cara membaca EnergiPass</h2>
+      </div>
+      <button class="icon-button" id="help-close" aria-label="Tutup panduan">×</button>
+    </div>
+    <div class="dialog-body">
+      <p>EnergiPass membantu vendor memetakan evidence yang sudah dimiliki terhadap requirement tender, menemukan gap, dan menyiapkan paket evidence sebelum deadline.</p>
+      <div class="callout neutral">
+        <strong>Batas kewenangan</strong>
+        <p>Status readiness bukan keputusan kualifikasi vendor. Buyer, CIVD, VMS, dan sistem procurement resmi tetap menentukan evidence yang diterima.</p>
+      </div>
+    </div>
+  </dialog>
+
+  <script src="mock-data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
